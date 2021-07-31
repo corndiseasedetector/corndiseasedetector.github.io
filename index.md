@@ -31,7 +31,7 @@ To gain insight into the generalization capacity of our model on new data, we ca
 |Northern corn leaf blight|1|0.98|0.99|0.99|
 |Healthy|0.99|1|1|1|
 
-Matthews correlation coefficient: 0.99
+**Matthews correlation coefficient:** 0.99
 
 ### Run the Streamlit app
 In case you just want to run the model, you can access our web application with this [link](https://share.streamlit.io/jezur/corndiseasedetector.github.io/main/webapp.py). 
