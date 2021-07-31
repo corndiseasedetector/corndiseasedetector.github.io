@@ -27,9 +27,10 @@ To gain insight into the generalization capacity of our model on new data, we ca
 
 |   |Precision|Recall|Accuracy|F1-score|
 |:-:|---|---|---|---|
-|Common rust of corn|0.99|1|1|1|
-|Northern corn leaf blight|1|0.98|0.99|0.99|
-|Healthy|0.99|1|1|1|
+|**Common rust of corn**|0.99|1|1|1|
+|**Northern corn leaf blight**|1|0.98|0.99|0.99|
+|**Healthy**|0.99|1|1|1|
+
 
 **Matthews correlation coefficient:** 0.99
 
