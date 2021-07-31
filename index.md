@@ -21,6 +21,12 @@ In both datasets the loss decreased and the accuracy increased through training 
 To gain insight into the generalization capacity of our model on new data, we calculated some performance measures on the test dataset, including the confusion matrix, accuracy, precision, recall, F1 score, and Matthews correlation coefficient. The summary of these metrics is presented below: 
 
 
+|   |Precision|Recall|Accuracy|F1-score|
+|:-:|---|---|---|---|
+|Common rust of corn|0.99|1|1|1|
+|Northern corn leaf blight|1|0.98|0.99|0.99|
+|Healthy|0.99|1|1|1|
+
 ### Run the Streamlit app
 In case you just want to run the model, you can access our web application with this [link](https://share.streamlit.io/jezur/corndiseasedetector.github.io/main/webapp.py). 
 
