@@ -82,7 +82,7 @@ Now, you can test the app locally with your images. The app will look like this 
 
 ### Replicate our work
 
-If you wish to replicate our work, you could make a [`copy of the jupyter notebook`](https://drive.google.com/file/d/1IJNLBUoJIQpNhsha8eOib3POjOzjsd1M/view?usp=sharing) we used to build, train, and test our model, to your Google Drive and run it with Google Colab. Also, you can run the notebook on your computer if you have GPUs, or make the proper changes to work with CPUs. 
+If you wish to replicate our work, you could make a [`copy of the jupyter notebook`](https://drive.google.com/file/d/1UEE3lqL-bJspn3fGGM0QSpeMjD0fa1th/view?usp=sharing) we used to build, train, and test our model, to your Google Drive and run it with Google Colab. Also, you can run the notebook on your computer if you have GPUs, or make the proper changes to work with CPUs. 
 
 ### Support or Contact
 
