@@ -4,7 +4,7 @@
 
 **Authors:** Juan Zurita, [Sebastián Ayala Ruano](https://sayalaruano.github.io/), Ximena Celi, Gilberto Rodríguez.   
 
-Infectious diseases are a **major threat** for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported **pre-harvest losses** due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato. Outbreaks of infection could endanger the country's economy and cause many people to lose their jobs. This project is an effort to develop an **early plant disease detector** as a *proof of concept*, using [publicly available datasets of maize](https://data.mendeley.com/datasets/tywbtsjrjv/1). In the future, we plan to expand this project to cover other important farming Ecuadorian species. 
+Infectious diseases are a **major threat** for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported **pre-harvest losses** due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato. Outbreaks of infectious plant diseases could endanger the country's economy and cause many people to lose their jobs. This project is an effort to develop an **early plant disease detector** as a *proof of concept*, using [publicly available datasets of maize](https://data.mendeley.com/datasets/tywbtsjrjv/1). In the future, we plan to expand this project to cover other important farming Ecuadorian species. 
 
 ### Dataset 
 
