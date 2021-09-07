@@ -8,7 +8,7 @@ Infectious diseases are a **major threat** for many crops of high importance for
 
 ### Dataset 
 
-The image dataset split in training, validation, and test used to build our model is available at this [link](https://drive.google.com/drive/folders/1xxGh6VnyTCLn9YTyA16t5BrlmdhEKoDG?usp=sharing). 
+The image dataset splited in training, validation, and test used to build our model is available at this [link](https://drive.google.com/drive/folders/1xxGh6VnyTCLn9YTyA16t5BrlmdhEKoDG?usp=sharing). 
 
 ### About our model
 
