@@ -40,7 +40,7 @@ To gain insight into the generalization capacity of our model on new data, we ca
 
 **Matthews correlation coefficient:** 0.99
 
-### Run the Streamlit app
+### Run the Streamlit app locally 
 In case you just want to run the model, you can access our web application with this [link](https://share.streamlit.io/jezur/corndiseasedetector.github.io/main/webapp.py). 
 
 Also, you can run the model locally using our **GitHub repository**. First, you should clone the **main branch** of our repo to your machine, decompress the contents of the zip file, and change your working directory:
@@ -78,6 +78,10 @@ $ streamlit run https://github.com/corndiseasedetector/corndiseasedetector.githu
 Now, you can test the app locally with your images. The app will look like this when active through Streamlit.
 
 ![CDD](./img/strlt.png)
+
+### Run the Streamlit app in the cloud 
+
+If you do not want to install the dependencies to run our model locally, you can access our model hosted as a web service in this [link](https://share.streamlit.io/jezur/corndiseasedetector.github.io/main/webapp.py).
 
 
 ### Replicate our work
