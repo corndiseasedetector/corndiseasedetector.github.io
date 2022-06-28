@@ -86,12 +86,34 @@ def predict_nocuda(image, model, topk=3):
 
         return top_p, top_classes
 
-
-
-
 # streamlit API
 # ----------------------------------------------------------------------------
 st.title('Corn Disease Detector (CDD)')
+
+st.sidebar.header('About')
+
+st.sidebar.write('Infectious diseases are a major threat for many crops of high importance for the food security of many regions of the world. Each year, around 60% of farmers in Ecuador have reported pre-harvest losses due to infectious agents such as fungi and bacteria, in crops like banana, cacao, and potato. Outbreaks of infectious plant diseases could endanger the country’s economy and cause many people to lose their jobs. This project is an effort to develop an early plant disease detector as a proof of concept, using publicly available datasets of maize. In the future, we plan to expand this project to cover other important farming Ecuadorian species.')
+
+st.sidebar.header('How it works?')
+
+st.sidebar.write('Load and image of a maize leaf and the model will predict if it has the common rust or the northern blight diseases.')
+
+st.sidebar.header('Data')
+
+st.sidebar.write('The image dataset splited in training, validation, and test used to build our model is available at this [link](https://drive.google.com/drive/folders/1xxGh6VnyTCLn9YTyA16t5BrlmdhEKoDG?usp=sharing).')
+
+st.sidebar.header('The model')
+
+st.sidebar.write('Our model is a classifier based on **convolutional neural networks**, trained to recognize two types of maize infectious diseases: Common rust of corn and Northern corn leaf blight. The available datasets for maize are too small to be used in deep neural networks. To solve this problem we used a `Transfer Learning` strategy and reused some layers from a `ResNet50` neural network trained on the [`ImageNet dataset`](https://www.image-net.org/), from [torchvision.models.resnet50](https://pytorch.org/vision/stable/_modules/torchvision/models/resnet.html). In this way, general image patterns are identified by pre-trained layers, and we trained additional layers of the network to identify healthy and diseased corn images. This network architecture has shown very promising results in [previous studies](https://plantmethods.biomedcentral.com/articles/10.1186/s13007-019-0475-z) of computer vision for agriculture. The main library used to build our model was [`Pytorch`](https://pytorch.org/) and we trained it using Google Cloud GPUs through `Google Colab`.')
+
+st.sidebar.header('Code availability')
+
+st.sidebar.write('The code for this project is available under the [MIT License](https://mit-license.org/) in this [GitHub repo](https://github.com/corndiseasedetector/corndiseasedetector.github.io). If you use or modify the source code of this project, please provide the proper attributions for this work.')
+
+st.sidebar.header('Contact')
+
+st.sidebar.write('If you have any comments or suggestions about this work, please [create an issue](https://github.com/corndiseasedetector/corndiseasedetector.github.io/issues/new) in the GitHub repository of this project.')
+
 st.write(
     '''
     ## Deep Learning Web APP
